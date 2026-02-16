@@ -153,14 +153,14 @@ if language == "🇬🇧 English":
     st.subheader("📞 Contact Us")
     st.write("""
     For orders or inquiries:  
-    **WhatsApp:** [Chat here](https://wa.me/255743117143)  
-    **Phone:** +255 743 117 143""")
+    **WhatsApp:** [Chat here](https://wa.me/255743117144)  
+    **Phone:** +255 743 117 144""")
 else:
     st.subheader("📞 Wasiliana Nasi")
     st.write("""
     Kwa oda au taarifa zaidi:  
-    **WhatsApp:** [Bonyeza hapa kuwasiliana](https://wa.me/255743117143)  
-    **Simu:** +255 743 117 143  """)
+    **WhatsApp:** [Bonyeza hapa kuwasiliana](https://wa.me/255743117144)  
+    **Simu:** +255 743 117 144""")
 st.markdown("---")
 st.info("Not all Electrical items are listed in this page,these are just samples, we have more than these Products | Tuna aina nyingi za Bidhaa Za vifaa vya umeme na vingine havijawekwa kwenye ukurasa huu kama unahitaji wasiliana nasi"
 )
@@ -189,6 +189,7 @@ def save_customer(name,place, phone,gender):
         current_date=datetime.now().strftime("%Y-%m-%d")
         writer.writerow(["Name", "Gender", "Place", "Phone","current_date"])
 print("Customer data saved successfully!")
+
 
 
 
